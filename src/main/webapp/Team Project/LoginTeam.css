@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+@font-face {
+	font-family: login;
+	src: url("./Outfit/static/Outfit-Light.ttf");
+}
+
+* {
+	font-family: login;
+
+}
+
+#login-box {
+    border: 1px solid blue;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: 20px 50px;
+}
+
+#login-box h1 {
+    color: white;
+}
+
+#login-box .form .item input {
+    width: 200px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: #ffffff00;
+    color: white; 
+    padding: 5px 10px; 
+}
+
+
+
+
+#login-box .form .item i {
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+
+#r{
+	background-color: purple;
+	width: 100%;
+}
+
+#imageUpload
+{
+    display: none;
+}
+
+#profileImage
+{
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+}
+
+#nav{
+	width: 100%;
+}
+
+ #profile-container {
+    width: 200px;
+    height: 200px;
+     overflow: hidden; 
+     -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+   
+} 
+
+#display_image{
+   width: 300px;
+   height: 169px;
+   border: 1px solid black;
+   background-position: center;
+   background-size: cover;
+}
+
+#profile-container img {
+    width: 200px;
+    height: 200px; 
+} 
+
+#imagen{
+	 margin-top: 80px; 
+	width: 200px;
+	display: flex;  
+  flex-wrap: wrap; 
+}
+
+#columna1{
+	/* background-color: red; */
+	justify-content: left;
+ 	display: flex;  
+  flex-wrap: wrap;  
+ 
+}
+
+ /* #texto1{
+	height: 100px;
+	width: 100px; 
+	font-weight: bold;
+	margin-left: 300px;
+	
+	
+	
+	 
+ 
+}  */
+
+#texto1{
+	height: 100px;
+	display: flex;  
+ /*  flex-wrap: wrap; */
+  justify-content: left;
+   display: inline-block;
+/* background-color:pink; */
+ width: min-content;
+overflow-wrap: break-word;
+}
+#texto2{
+	/* margin-top: 60px; */
+	height: 250px;
+	width: 500px;
+	font-weight: bold;
+	/* margin-left: 20px; */
+	/* background-color:blue; */
+	display: flex;  
+  flex-wrap: wrap;
+justify-content: left;
+display: inline-block;
+	
+}
+
+
+

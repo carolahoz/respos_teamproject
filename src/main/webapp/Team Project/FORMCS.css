@@ -1,0 +1,16 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  
+}
+div#Cuerpo{
+	
+	margin:auto;
+	width: 900px;
+	height:800px;
+	background: linear-gradient(to right, #24c6dc, #514a9d);
+	
+}
