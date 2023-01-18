@@ -1,0 +1,471 @@
+@charset "ISO-8859-1";
+
+
+cf{
+	width: 100%;
+
+
+}
+
+#body{
+	
+		background: linear-gradient(to right, #FFC371, #FF5F6D); 
+	background-size: cover;
+	
+}
+
+nav{
+	
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+	width: 100%;
+/* 	background-color: #a277ff; */
+	
+}
+
+header{
+	
+/* 	background-color: #a277ff */
+}
+
+
+#search{
+/* 	float: left; */
+	width: 700px;
+	margin-left: 40px;
+	height: 40px;
+	/* margin-right: 20px; */
+	margin-top: 8px;
+	
+	
+}
+
+ #CYV{
+	
+	background-size: cover;
+	background-repeat: no-repeat; 
+	
+width: 80px;
+height: 50px;
+
+
+} 
+
+
+
+#navbar1{
+	
+	
+	height: 50px;
+	width: 100%; 
+
+	display: flex;
+	/* position: absolute; */
+
+	justify-content: center;
+	justify-content: space-around;
+	border-top: solid #8000ff 1px;
+	border-bottom: solid #8000ff 1px;
+	
+	
+
+}
+
+
+#content-navbar1{
+	
+	width: 500px;
+	
+}
+
+#form{
+	width: 100%;
+	height: 50px;
+	/* margin-right: 170px; */
+ 
+  	margin-bottom: 40px; 
+display: flex;
+  flex-direction: row; 
+  align-items: center;
+
+
+ 
+	 flex-wrap: wrap;  
+}
+
+#navbar2{
+	
+	width: 	100%;
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+}
+
+#caja{
+	
+	background-color: white;
+	position: absolute;
+	display: flex;
+	width: 800px;
+	bottom: 300px;
+	right: 670px;
+}
+
+#imgempdiv{
+	
+	display: flex;
+	justify-content: center;
+	
+	width: 1600px;
+	
+}
+
+#imgemp{
+	
+	width: 100%;
+	
+}
+
+
+#button1{
+
+margin-left: 20px;
+height: 40px;
+
+}
+
+#button3{
+
+margin-left: 20px;
+height: 40px;
+
+}
+
+#button2{
+
+margin-left: 10px;
+height: 40px;
+
+}
+
+
+ #search-cont{
+/*  margin-right: 5px; */ 
+
+} 
+
+#miperfil{
+margin-left: 120px;  
+ margin-right: 20px; 
+ 
+}
+
+  
+  #textarea, .form-control{
+  
+  height: 120px;
+  margin-top: 10px;
+  
+  }
+  
+   #card, #card1, #card2{
+
+	display: flex;
+
+	justify-content: center;
+
+
+}
+
+#button-area1{
+	
+	height: 60px;
+	flex-wrap: wrap;
+	
+}
+
+
+#button-area2{
+	
+	height: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	justify-content: center;
+	
+	
+}
+
+#form-content{
+	
+	background-color: 	#FBCEB1
+	
+}
+
+#ubiarti, #nomarti, #categoria-genero, #categoria-ropa, #categoria-tallaRopa, #categoria-etiquetas{
+	height: 45px;
+}
+
+#desarti{
+	
+	height: 100px;
+}
+
+#subir-ropa{
+	
+	height: 50px;
+}
+
+
+.card img{
+
+width: 200px;
+height: 300px;
+}
+
+
+
+.card{
+
+display: flex;
+justify-content: center;
+
+height: 600px;
+
+
+}
+
+
+
+ #search-cont{
+/*  margin-right: 5px; */ 
+
+} 
+
+
+#form2{
+	display: flex;
+	margin-left: 600px;
+	width: 200px;
+	height: 40px;
+	flex: flex-wrap;
+}
+
+#button4{
+	margin-bottom: 60px;
+	
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+	
+}
+
+#subir{
+	  display: flex;
+  justify-content: center;
+	
+}
+
+
+
+
+#col1{
+	display: flex;
+    flex-wrap: nowrap;
+     flex-direction: row; 
+     align-items: stretch;
+     width: 1020px; 
+  
+}
+
+#row2{
+	
+	
+	margin-top:30px;
+	height: 345px;
+   /*  justify-content: space-around; */
+
+	
+}
+
+#contentextphoto{
+	
+margin-left: 120px;
+	
+}
+
+
+
+#comocontact{
+	
+
+/* 	flex: flex-wrap; */
+	width: 470px;
+	height: 200px;
+	/* margin-top: 200px; */
+	margin-left: 50px;
+	
+	
+}
+ #texto{
+
+	
+	width: 230px;
+	height: 100px;
+	margin-left: 20px;
+	margin-bottom:20px;
+	/* background-color: blue; */
+	
+} 
+
+
+#textocontactos{
+	
+	font-size: 20px;
+	
+}
+
+#imageUpload{
+	margin-top:10px;
+}
+
+
+
+
+#contact1, #contact2 {
+/*   display: none; */
+  font-size: 17px;
+}
+
+
+#myImg
+{
+	height: 300px;
+	width: 400px;
+}
+
+
+#imagen{
+	
+	 width: 200px;
+	 margin-left: 70px;
+}
+#profile-container img {
+    width: 250px;
+    height: 250px; 
+} 
+
+ #profile-container {
+    width: 250px;
+    height: 250px;
+     overflow: hidden; 
+     -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+   
+   
+} 
+
+ #col1{
+	height: 350px;
+	 margin-bottom: 100px; 
+	/* justify-content: left; */
+	
+	
+}
+
+#col2{
+    justify-content: left;
+    display: flex;
+    align-content: space-between;
+    background-color: blue;
+    height: 300px;
+}
+
+body{
+	background: #f0f3f5;
+	/* color: #fff */
+}
+
+header{
+	/* background: #9aca40;
+	padding: 20px;
+	margin: 20px; */
+}
+
+.contenedor-main{
+	margin-bottom: 20px;
+}
+
+#ropa img{
+	width: 200px;
+	height: 200px;
+	display: flex;  
+  flex-wrap: wrap;
+     display: inline-block; 
+  /*    margin: 20px;
+     margin-top:10px; */
+     
+  }
+  
+  #articulos img{
+	width: 300px;
+	height: 300px;
+	display: flex;  
+  flex-wrap: wrap;
+     display: inline-block; 
+     border: 2px solid grey;
+     border-radius: 5px;
+  /*    margin: 20px;
+     margin-top:10px; */
+     
+  }
+  
+  #imgs{
+  	display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  
+  }
+ 
+#terminar3{
+
+
+
+}
+  
+  
+
+main{
+	background: white;
+	color:#424242;
+	padding: 20px 0;
+}
+
+aside{
+	background: #dee5e8;
+	color: #0d47a1;
+	padding: 60px 0;
+}
+
+.widgets{
+	margin-bottom: 20px;
+}
+
+.widgets > div{
+	color: black;
+	padding: 20px;
+}
+
+
+footer{
+	
+ 	/* background: #1e1e1e; */
+	
+}

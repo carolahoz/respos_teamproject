@@ -28,9 +28,13 @@
 <script>
 
 var password = null
+
 var email = null
 var bool1 = false
 var bool2 = false
+
+var arroba = "@";
+
 
 $(document).ready(function (){
 	console.log()
@@ -41,7 +45,7 @@ $(document).ready(function (){
 	var arroba = '@'
 	console.log(passwordTemp)
 	for (i = 0; i < passwordTemp.length; i++){
-		if (passwordTemp.length > 5) {
+		if (passwordTemp.length > 5 && passwordTemp.length < 15) {
 			password = passwordTemp;
 			console.log()
 			bool1 = true
@@ -49,6 +53,12 @@ $(document).ready(function (){
 		}
 		else if (passwordTemp.length < 5){
 		
+
+			    
+		
+			
+			alert("Contraseña no válida");
+
 			
 			 $('#validacion').removeAttr("href");
 				
@@ -85,7 +95,7 @@ $(document).ready(function (){
 		
 		alert("Contraseña y correo válidos");
 		
-		$('#validacion').attr('href', '../PagPrin.html'); 
+		$('#validacion').attr('href', '../PaginaPrin/PagPrin.html'); 
 		
 	}
 	
@@ -182,13 +192,12 @@ height: 200px; */
 					placeholder="684536473">
 			</div>
 			<div class="mb-3">
-				<label for="exampleFormControlInput1" class="form-label">Código
-					postal</label> <input type="number" class="form-control" id="codPost"
-					placeholder="25000">
+				<label for="exampleFormControlInput1" class="form-label">Ubicación</label> <input type="text" class="form-control" id="codPost"
+					placeholder="Legazpi, Madrid">
 			</div>
 			<div class="mb-3 mt-4 d-flex justify-content-around">
 				<a role="button" type="submit" class="btn btn-primary"
-					id="validacion" href="../PagPrin.html">Registrarme</a>
+					id="validacion" href="../PaginaPrin/PagPrin.html">Registrarme</a>
 				<button type="submit" class="btn btn-danger">Cancelar</button>
 			</div>
 		</div>
