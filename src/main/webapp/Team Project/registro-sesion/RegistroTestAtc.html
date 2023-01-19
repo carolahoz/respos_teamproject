@@ -51,7 +51,7 @@ $(document).ready(function (){
 			bool1 = true
 			
 		}
-		else if (passwordTemp.length < 5){
+		else if (passwordTemp.length < 5 || passwordTemp == ""){
 		
 
 			    
@@ -102,6 +102,8 @@ $(document).ready(function (){
 	else if (bool1 == false || bool2 == false){
 		
 		alert("Contraseña o correo no válidos");
+		
+		$('#validacion').removeAttr("href");
 		
 	}
 	
